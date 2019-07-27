@@ -1,0 +1,251 @@
+/*Color Palette
+#EBEBEB Isabelline
+#B38194 English Lavender
+#50274C Purple Taupe
+#2B2237 Dark Purple
+#39375B Deep Koamaru
+
+/****** BASE STYLES ******/
+
+body {
+    color: #B5BBC3;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 21px; 
+}
+
+#header {
+    height: 120px;
+}
+#about, #work, #contact{
+    height: 500px;
+}
+
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/*Header
+______________________________*/
+
+header {
+/*    margin-top: 0px;*/
+    background-color: #894982;
+    padding: 0;
+  }
+
+header h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 45px;
+    margin: 0;
+    padding: 10px 0 0px 25px;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    margin: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    border: none;
+    color: #B5BBC3;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 24px;
+    font-weight: 10;
+    padding-left: 10px;
+}
+
+/*-----------------Image Section---------------------*/
+#site-image {
+    background: 
+        url(../img/toronto-skyline-evening.png) no-repeat fixed;
+
+}
+#site-image img {
+    height: 900px;
+}
+
+#site-image h2 {
+    width: 700px; 
+    clear: both;
+/*    color: #7F7F7F;*/
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+}
+
+.top-left {
+    position: absolute;
+    top: 150px;
+    left: 16px;
+}
+
+span {
+    color: #894982;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+
+/*------------------------About----------------------------------*/
+
+#about {
+    background-color: #EBEBEB;
+}
+
+#about .full-width {
+    padding: 10px 0;
+}
+    
+#about h2 {
+    color: #466C9D;
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
+    padding-left: 50px;
+}
+
+#about p{
+    font-family: 'Fjalla One', sans-serif;
+    color: #7F7F7F;
+    font-size: 21px;
+    line-height: 35px;
+    padding: 0 50px 0 50px;
+}
+
+/*---------------------------------*Work*--------------------------------*/
+
+#work {
+    background-color: #894982;
+    color: #0A0A0A;
+    text-align: center;
+    
+/*    padding-top: 70px;*/
+}
+
+#work .full-width{
+    padding: 100px 0; 
+}
+
+
+#work h3 {
+    font-family: 'Courgette', cursive;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 32px;
+    width: 210px;
+    margin: 0 auto;
+}
+
+#work img {
+    
+    padding-bottom: 30px;
+}
+
+#work p {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 100;
+    padding: 0px 50px 20px 50px;
+}
+
+
+/*-----------------------------Contact----------------------------------*/
+
+#contact {
+    background-color: #EBEBEB;
+
+    }
+
+#contact .full-width {
+    padding: 80px 0;
+}
+
+#contact-info {
+    text-align: center;
+}
+
+#contact-info h2{
+    padding-top: 50px;
+}
+
+#contact img#profile-img{
+    border: white 12px solid;
+    height: 200px;
+    margin: 50px 25px 0 50px;
+ }
+
+#contact img#workstation{
+    border: white 12px solid;
+    height: 200px;
+}
+
+#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+    padding-left: 10px;
+}
+#contact #envelope {
+    padding: 0 10px 0 0px;
+}
+
+#contact h2 {
+    font-family: 'Courgette', cursive;
+    font-size: 32px;
+    line-height: 44px;
+}
+
+#contact #socialmedia-header {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 29px;  
+    line-height: 44px;
+    font-weight: bold;
+}
+
+#contact #email-header {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 32px;
+    font-weight: 100;
+    margin: -30px 0 5px 0;
+}
+
+#contact a {
+    font-family: 'Fjalla One', sans-serif;
+    color: #466C9D;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+     display: inline-block;
+}
+
+#contact ul li a {
+     padding: 35px 0px 0 0px;
+}
+
+
+
+
